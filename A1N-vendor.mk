@@ -109,7 +109,6 @@ PRODUCT_PACKAGES += \
     libsensor_reg \
     libsns_low_lat_stream_stub \
     libssc_default_listener \
-    libvideoutils \
     sensor_calibrate \
     sensors.ssc \
     vendor.fih.hardware.ifaa@1.0 \
