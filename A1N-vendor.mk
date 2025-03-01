@@ -319,7 +319,7 @@ PRODUCT_PACKAGES += \
     libsurround_3mic_proc \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.keymaster@3.0-impl-qti \
-    fingerprint.default \
+    fingerprint.msm8998 \
     gatekeeper.msm8998 \
     keystore.msm8998 \
     libgf_ca \
