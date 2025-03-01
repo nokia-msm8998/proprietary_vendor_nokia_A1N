@@ -79,7 +79,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     sound_trigger.primary.msm8998 \
-    vendor.qti.hardware.soter@1.0-impl \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -114,7 +113,6 @@ PRODUCT_PACKAGES += \
     sensor_calibrate \
     sensors.ssc \
     vendor.fih.hardware.ifaa@1.0 \
-    vendor.qti.hardware.soter@1.0 \
     camera.msm8998 \
     libactuator_ak7345 \
     libactuator_ak7371 \
@@ -322,6 +320,7 @@ PRODUCT_PACKAGES += \
     fingerprint.msm8998 \
     gatekeeper.msm8998 \
     keystore.msm8998 \
+    vendor.qti.hardware.soter@1.0-impl \
     libgf_ca \
     libgf_hal \
     libgoodixhwfingerprint \
@@ -329,6 +328,7 @@ PRODUCT_PACKAGES += \
     libkeymasterprovision \
     libkeymasterutils \
     libvendor.goodix.hardware.fingerprintextension@1.0 \
+    vendor.qti.hardware.soter@1.0 \
     capi_v2_aptX_Classic \
     capi_v2_aptX_HD \
     libFastRPC_AUE_Forward_skel \
@@ -344,7 +344,6 @@ PRODUCT_PACKAGES += \
     libsns_low_lat_stream_skel \
     libvpp_frc \
     libvpp_svc_skel \
-    vendor.qti.hardware.soter@1.0 \
     HotwordEnrollmentOKGoogleWCD9335 \
     HotwordEnrollmentTGoogleWCD9335 \
     HotwordEnrollmentXGoogleWCD9335 \
