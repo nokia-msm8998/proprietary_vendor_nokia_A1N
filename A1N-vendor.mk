@@ -93,16 +93,6 @@ PRODUCT_PACKAGES += \
     libgcs-ipc \
     libgcs-osal \
     libgcs \
-    libmmcamera2_frame_algorithm \
-    libmmcamera2_is \
-    libmmcamera2_q3a_core \
-    libmmcamera2_stats_algorithm \
-    libmmcamera2_stats_lib \
-    libmmcamera_dbg \
-    libmmcamera_faceproc \
-    libmmcamera_faceproc2 \
-    libmmcamera_tintless_algo \
-    libmmcamera_tintless_bg_pca_algo \
     libqtigef \
     libseemore \
     libsensor1 \
@@ -214,18 +204,24 @@ PRODUCT_PACKAGES += \
     libmm-qcamera \
     libmmcamera2_c2d_module \
     libmmcamera2_cpp_module \
+    libmmcamera2_frame_algorithm \
     libmmcamera2_iface_modules \
     libmmcamera2_imglib_modules \
+    libmmcamera2_is \
     libmmcamera2_isp_modules \
     libmmcamera2_mct \
     libmmcamera2_mct_shimlayer \
     libmmcamera2_pp_buf_mgr \
     libmmcamera2_pproc_modules \
+    libmmcamera2_q3a_core \
     libmmcamera2_sensor_modules \
+    libmmcamera2_stats_algorithm \
+    libmmcamera2_stats_lib \
     libmmcamera2_stats_modules \
     libmmcamera_arcsoftbokeh_lib \
     libmmcamera_bokeh \
     libmmcamera_csidtg \
+    libmmcamera_dbg \
     libmmcamera_depth_map \
     libmmcamera_dummyalgo \
     libmmcamera_dw9761b_2d_eeprom \
@@ -233,6 +229,8 @@ PRODUCT_PACKAGES += \
     libmmcamera_eeprom_util \
     libmmcamera_eztune_module \
     libmmcamera_facedetection_lib \
+    libmmcamera_faceproc \
+    libmmcamera_faceproc2 \
     libmmcamera_hdr_gb_lib \
     libmmcamera_hvx_add_constant \
     libmmcamera_hvx_grid_sum \
@@ -295,6 +293,8 @@ PRODUCT_PACKAGES += \
     libmmcamera_s5k4e8_front_a1n_eeprom \
     libmmcamera_sw2d_lib \
     libmmcamera_thread_services \
+    libmmcamera_tintless_algo \
+    libmmcamera_tintless_bg_pca_algo \
     libmmcamera_truly_cma481_eeprom \
     libmmcamera_truly_cmb433_eeprom \
     libmmcamera_tuning \
