@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/nokia/A1N
 
 PRODUCT_COPY_FILES += \
-    vendor/nokia/A1N/proprietary/system_ext/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/audiosphere.xml \
     vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/aux/ISO200_1280x720.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/aux/ISO200_1280x720.ncf \
     vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/aux/ISO200_1600x1200.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/aux/ISO200_1600x1200.ncf \
     vendor/nokia/A1N/proprietary/vendor/etc/A1N/ncf/aux/ISO200_2688x1512.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/A1N/ncf/aux/ISO200_2688x1512.ncf \
@@ -78,35 +77,22 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/A1N/proprietary/vendor/usr/keylayout/goodix_fp.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/goodix_fp.kl
 
 PRODUCT_PACKAGES += \
-    sound_trigger.primary.msm8998 \
-    libacdb-fts \
-    libacdbloader \
-    libacdbrtac \
-    libadiertac \
-    libaudcal \
-    libaudio_log_utils \
-    libaudioalsa \
-    libaudioconfigstore \
-    libaudioparsers \
-    libfastcvadsp_stub \
-    libgcs-calwrapper \
-    libgcs-ipc \
-    libgcs-osal \
-    libgcs \
-    libqtigef \
-    libseemore \
     libsensor1 \
     libsensor_reg \
-    libsns_low_lat_stream_stub \
     libssc_default_listener \
     sensor_calibrate \
     sensors.ssc \
     vendor.fih.hardware.ifaa@1.0 \
     camera.msm8998 \
+    sound_trigger.primary.msm8998 \
+    libacdb-fts \
+    libacdbloader \
+    libacdbrtac \
     libactuator_ak7345 \
     libactuator_ak7371 \
     libactuator_ak7371_tele_a1n \
     libactuator_ak7371_wide_a1n \
+    libadiertac \
     libadm \
     libadpcmdec \
     libarcsoft_beautyshot \
@@ -116,6 +102,11 @@ PRODUCT_PACKAGES += \
     libarcsoft_night_shot \
     libarcsoft_picselfie_algorithm \
     libarcsoft_smart_denoise \
+    libaudcal \
+    libaudio_log_utils \
+    libaudioalsa \
+    libaudioconfigstore \
+    libaudioparsers \
     libchromatix_s5k2l7sa05_a1n_wide_4k_preview_3a \
     libchromatix_s5k2l7sa05_a1n_wide_4k_video_3a \
     libchromatix_s5k2l7sa05_a1n_wide_common \
@@ -196,7 +187,12 @@ PRODUCT_PACKAGES += \
     libchromatix_s5k4e8_a1n_front_zsl_video_3a \
     libdepthmapwrapper \
     libdrc \
+    libfastcvadsp_stub \
     libfih_camera_effect \
+    libgcs-calwrapper \
+    libgcs-ipc \
+    libgcs-osal \
+    libgcs \
     libhal_dbg \
     libjpegdhw \
     libjpegdmahw \
@@ -311,8 +307,11 @@ PRODUCT_PACKAGES += \
     libqomx_jpegdec \
     libqomx_jpegenc \
     libqomx_jpegenc_pipe \
+    libqtigef \
     libremosaic_daemon \
+    libseemore \
     libsmwrapper \
+    libsns_low_lat_stream_stub \
     libsurround_3mic_proc \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.keymaster@3.0-impl-qti \
@@ -346,7 +345,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleWCD9335 \
     HotwordEnrollmentTGoogleWCD9335 \
     HotwordEnrollmentXGoogleWCD9335 \
-    audiosphere \
     vendor.qti.hardware.soter-V1.0-java \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.keymaster@3.0-service-qti \
